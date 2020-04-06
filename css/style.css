@@ -932,6 +932,18 @@ h1, h2, h3, h4, h5, h6, figure {
     opacity: 0.03;
 }
 
+@media screen and (max-width: 1441px) {
+    .decor-page-main-1 {
+        max-width: 450px;
+    }
+
+    .decor-page-main-2 {
+        right: -1rem;
+        bottom: -1rem;
+        max-width: 250px;
+    }
+}
+
 #fh5co-project .fh5co-project {
     margin-bottom: 30px;
 }
