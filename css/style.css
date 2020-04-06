@@ -914,11 +914,20 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative;
 }
 
-.decor-page-main {
+.decor-page-main-1 {
     position: absolute;
-    left:0;
+    left: 0;
     top: 0;
     max-width: 700px;
+    height: auto;
+    opacity: 0.03;
+}
+
+.decor-page-main-2 {
+    position: absolute;
+    right: -3rem;
+    bottom: -3rem;
+    max-width: 600px;
     height: auto;
     opacity: 0.03;
 }
