@@ -932,7 +932,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-project {
-    background-color: rgba(218, 218, 218, 0.3215686274509804);
+    /*background-color: rgba(218, 218, 218, 0.3215686274509804);*/
+    background-color: #000;
     position: relative;
 }
 
@@ -942,7 +943,10 @@ h1, h2, h3, h4, h5, h6, figure {
     top: 0;
     max-width: 700px;
     height: auto;
-    opacity: 0.03;
+    /*opacity: 0.03;*/
+    opacity: 0.1;
+    -ms-filter: invert(60%);
+    filter: invert(60%);
 }
 
 .decor-page-main-2 {
@@ -951,7 +955,10 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: -3rem;
     max-width: 600px;
     height: auto;
-    opacity: 0.03;
+    /*opacity: 0.03;*/
+    opacity: 0.1;
+    -ms-filter: invert(60%);
+    filter: invert(60%);
 }
 
 @media screen and (max-width: 1441px) {
@@ -1400,7 +1407,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 0px;
     line-height: 1.5;
     font-weight: 300;
-    color: #ab6712;
+    color: #d58c12;
 }
 
 .fh5co-heading p {
