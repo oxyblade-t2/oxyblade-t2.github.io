@@ -33,6 +33,16 @@ body {
     transition: 0.5s;
 }
 
+#page h1,
+#page h2,
+#page h3,
+#page h4,
+#page h5,
+#page h6,
+#page figure {
+    color: #828282;
+}
+
 .offcanvas #page {
     overflow: hidden;
     position: absolute;
