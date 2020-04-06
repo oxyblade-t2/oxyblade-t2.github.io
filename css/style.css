@@ -33,16 +33,6 @@ body {
     transition: 0.5s;
 }
 
-#page h1,
-#page h2,
-#page h3,
-#page h4,
-#page h5,
-#page h6,
-#page figure {
-    color: #828282;
-}
-
 .offcanvas #page {
     overflow: hidden;
     position: absolute;
@@ -526,6 +516,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-social-icons li a i {
     font-size: 20px;
+}
+
+#fh5co-contact h3{
+    color: #828282;
 }
 
 .fh5co-contact-info ul {
