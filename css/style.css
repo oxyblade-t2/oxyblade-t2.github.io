@@ -518,7 +518,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 20px;
 }
 
-#fh5co-contact h3{
+#fh5co-contact h3 {
     color: #828282;
 }
 
@@ -528,8 +528,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-contact-info ul li {
-    padding: 0 0 0 70px;
-    margin: 0 0 30px 0;
+    padding: 0 0 0 35px;
+    margin: 0 0 10px 0;
+    list-style: none;
+    position: relative;
+    color: #d58c12;
+}
+
+.fh5co-contact-info-data ul {
+    padding-left: 0;
+}
+
+.fh5co-contact-info-data ul li {
+    /*margin: 0 0 30px 0;*/
     list-style: none;
     position: relative;
     color: #d58c12;
@@ -1074,7 +1085,7 @@ h1, h2, h3, h4, h5, h6, figure {
         bottom: 0;
         color: #000;
         padding: 20px;
-        background: #fff;
+        background: #0b0b0b;
     }
 }
 
