@@ -224,10 +224,16 @@ h1, h2, h3, h4, h5, h6, figure {
     line-height: 1.2;
     text-transform: none;
     font-size: 15px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .fh5co-nav ul li.has-dropdown .dropdown li a:hover {
     color: #d58c12;
+    margin-left: 3px;
 }
 
 .fh5co-nav ul li.has-dropdown:hover a,
@@ -281,16 +287,19 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #000;
 }
 
-.scrolled .fh5co-nav ul li a:hover, .scrolled .fh5co-nav ul li a:focus, .scrolled .fh5co-nav ul li a:active {
-    color: #ab6712 !important;
+.scrolled .fh5co-nav ul li a:hover,
+.scrolled .fh5co-nav ul li a:focus,
+.scrolled .fh5co-nav ul li a:active {
+    color: #d58c12 !important;
 }
 
 .scrolled .fh5co-nav ul li.active a {
-    color: #ab6712;
+    color: #d58c12;
 }
 
-.scrolled .fh5co-nav ul li.has-dropdown:hover > a, .scrolled .fh5co-nav ul li.has-dropdown:focus > a {
-    color: #ab6712;
+.scrolled .fh5co-nav ul li.has-dropdown:hover > a,
+.scrolled .fh5co-nav ul li.has-dropdown:focus > a {
+    color: #d58c12;
 }
 
 #fh5co-header,
