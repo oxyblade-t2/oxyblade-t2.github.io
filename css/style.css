@@ -707,6 +707,10 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative;
 }
 
+#fh5co-contact {
+    background-color: #0b0b0b;
+}
+
 .decor-page-services-1 {
     position: absolute;
     left: 3rem;
@@ -944,7 +948,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-project {
     /*background-color: rgba(218, 218, 218, 0.3215686274509804);*/
-    background-color: #000;
+    /*background-color: #000;*/
     position: relative;
 }
 
@@ -1514,7 +1518,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-    background-color: #000;
+    /*background-color: #000;*/
 }
 
 #fh5co-footer .fh5co-footer-links {
