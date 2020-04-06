@@ -624,6 +624,14 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 
+@media screen and (max-width: 576px) {
+    #fh5co-header .display-tc h1,
+    #fh5co-counter .display-tc h1,
+    .fh5co-cover .display-tc h1 {
+        font-size: 28px;
+    }
+}
+
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
@@ -1123,7 +1131,7 @@ h1, h2, h3, h4, h5, h6, figure {
     #fh5co-project .fh5co-project > a:hover .fh5co-copy {
         bottom: 0;
         padding: 20px;
-        background: #fff;
+        background: #0b0b0b;
     }
 }
 
