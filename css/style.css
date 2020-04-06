@@ -909,6 +909,10 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-left: 3px;
 }
 
+#fh5co-project {
+    background-color: rgba(218, 218, 218, 0.3215686274509804);
+}
+
 #fh5co-project .fh5co-project {
     margin-bottom: 30px;
 }
