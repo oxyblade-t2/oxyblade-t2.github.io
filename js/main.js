@@ -212,9 +212,9 @@
 
 
   // Loading page
-/*  var loaderPage = function () {
-    $(".fh5co-loader").fadeOut("slow");
-  };*/
+  /*  var loaderPage = function () {
+      $(".fh5co-loader").fadeOut("slow");
+    };*/
 
   var counter = function () {
     $('.js-counter').countTo({
@@ -256,5 +256,31 @@
     parallax();
   });
 
+  // owl carousel
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      items: 5,
+      margin: 10,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      smartSpeed: 1000,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          dots: true
+        },
+        767: {
+          items: 3,
+        },
+        1025: {
+          items: 5,
+        }
+      }
+    });
+  });
 
 }());
+
