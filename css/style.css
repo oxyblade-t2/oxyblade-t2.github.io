@@ -454,11 +454,11 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 18px;
     padding: 0 !important;
     background: none;
-    -webkit-border-radius: 50% !important;
-    -moz-border-radius: 50% !important;
-    -ms-border-radius: 50% !important;
-    -o-border-radius: 50% !important;
-    border-radius: 50% !important;
+    /*    -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        -ms-border-radius: 50% !important;
+        -o-border-radius: 50% !important;
+        border-radius: 50% !important;*/
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .pagination > li > a:hover {
     color: #000;
-    background: #e6e6e6 !important;
+    background: #2c2c2c !important;
 }
 
 .pagination > li.disabled > a {
@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .pagination > li.active > a {
-    background: #F73859 !important;
+    background: #ab6712 !important;
     -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
     -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .pagination > li.active > a:hover {
     cursor: pointer;
-    background: #f96982 !important;
+    background: #d58c12 !important;
 }
 
 .fh5co-social-icons {
@@ -1081,7 +1081,8 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
+    height: 95px;
+    /*top: 0;*/
     background: rgba(0, 0, 0, 0.7);
     z-index: 8;
     -webkit-transition: 0.5s;
@@ -1510,7 +1511,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-heading h2 {
     font-size: 55px;
-    margin-bottom: 0px;
+    /*margin-bottom: 0;*/
     /*line-height: 1.5;*/
     font-weight: 300;
     color: #d58c12;
