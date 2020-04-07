@@ -714,6 +714,13 @@ h1, h2, h3, h4, h5, h6, figure {
     clear: both;
 }
 
+#fh5co-team p {
+    font-style: italic;
+    color: #d58c12;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
     #fh5co-services,
     #partners,
@@ -729,7 +736,8 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 
-#fh5co-services {
+#fh5co-services,
+#fh5co-team {
     position: relative;
 }
 
@@ -749,24 +757,6 @@ h1, h2, h3, h4, h5, h6, figure {
     right: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.86);
-}
-
-.decor-page-services-1 {
-    position: absolute;
-    left: 3rem;
-    top: 3rem;
-    max-width: 500px;
-    height: auto;
-    opacity: 0.03;
-}
-
-.decor-page-services-2 {
-    position: absolute;
-    right: 3rem;
-    bottom: 3rem;
-    max-width: 600px;
-    height: auto;
-    opacity: 0.03;
 }
 
 #fh5co-testimonial {
@@ -992,7 +982,8 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative;
 }
 
-.decor-page-main-1 {
+.decor-page-main-1,
+.decor-page-about {
     position: absolute;
     left: 0;
     top: 0;
@@ -1011,6 +1002,28 @@ h1, h2, h3, h4, h5, h6, figure {
     max-width: 600px;
     height: auto;
     /*opacity: 0.03;*/
+    opacity: 0.1;
+    -ms-filter: invert(60%);
+    filter: invert(60%);
+}
+
+.decor-page-services-1 {
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+    max-width: 500px;
+    height: auto;
+    opacity: 0.1;
+    -ms-filter: invert(60%);
+    filter: invert(60%);
+}
+
+.decor-page-services-2 {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    max-width: 600px;
+    height: auto;
     opacity: 0.1;
     -ms-filter: invert(60%);
     filter: invert(60%);
