@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Spectral:ital@1&display=swap');*/
+
 @font-face {
     font-family: 'icomoon';
     src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -7,10 +9,10 @@
 }
 
 @font-face {
-    font-family: 'CormorantInfant';
-    src: url("../fonts/CormorantInfant.ttf") format("truetype");
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
+    font-family: 'Spectral';
+    src: url("../fonts/Spectral-MediumItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* =======================================================
@@ -24,7 +26,7 @@ html {
 
 body {
     /*font-family: "Open Sans", Arial, sans-serif;*/
-    font-family: CormorantInfant, cursive;
+    font-family: 'Spectral', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
@@ -82,7 +84,7 @@ p {
 h1, h2, h3, h4, h5, h6, figure {
     color: #000;
     /*font-family: "Open Sans", Arial, sans-serif;*/
-    font-family: CormorantInfant, cursive;
+    font-family: 'Spectral', serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -638,7 +640,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 40px;
     line-height: 1.3;
     /*font-family: "Open Sans", Arial, sans-serif;*/
-    font-family: CormorantInfant, cursive;
+    font-family: 'Spectral', serif;
     font-weight: 300;
 }
 
@@ -848,7 +850,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-style: normal;
     font-size: 13px;
     /*font-family: "Open Sans", Arial, sans-serif;*/
-    font-family: CormorantInfant, cursive;
+    font-family: 'Spectral', serif;
 }
 
 #fh5co-testimonial .testimonial p:last-child {
@@ -2002,7 +2004,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-right: 4px;
     margin-bottom: 4px;
     /*font-family: "Open Sans", Arial, sans-serif;*/
-    font-family: CormorantInfant, cursive;
+    font-family: 'Spectral', serif;
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 4px;
