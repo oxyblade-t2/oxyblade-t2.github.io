@@ -2002,6 +2002,20 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #d58c12;
 }
 
+.home-product-btn {
+    width: 100%;
+    height: 371.53px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .btn-success {
     background: #5cb85c;
     color: #fff;
