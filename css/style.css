@@ -128,6 +128,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav #fh5co-logo a > img {
     max-width: 185px;
+    -ms-filter: drop-shadow(0px 4px 6px #000);
+    filter: drop-shadow(0px 4px 6px #000);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .fh5co-nav a {
@@ -626,6 +633,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media screen and (max-width: 576px) {
+    .fh5co-nav #fh5co-logo a > img {
+        max-width: 86px;
+    }
+
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {

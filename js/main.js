@@ -54,9 +54,15 @@
       if ($(window).scrollTop() > 50) {
         $('body').addClass('scrolled');
         $('.js-fh5co-nav-toggle').removeClass('fh5co-nav-white');
+        $('.fh5co-nav #fh5co-logo a > img').css('max-width', 86);
       } else {
         $('body').removeClass('scrolled');
         $('.js-fh5co-nav-toggle').addClass('fh5co-nav-white');
+        $('.fh5co-nav #fh5co-logo a > img').css('max-width', 185);
+      }
+
+      if ($(window).width() < 576) {
+        $('.fh5co-nav #fh5co-logo a > img').css('max-width', 86);
       }
     });
 
