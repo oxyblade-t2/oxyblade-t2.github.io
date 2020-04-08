@@ -1071,6 +1071,21 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    -webkit-box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
+}
+
+#fh5co-project .fh5co-project > a .fh5co-copy {
+    opacity: 1 !important;
+    visibility: visible !important;
+    bottom: 20px !important;
+}
+
+#fh5co-project .fh5co-project > a:hover .fh5co-copy {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    bottom: 0 !important;
 }
 
 #fh5co-project .fh5co-project > a img {
@@ -1085,8 +1100,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-project .fh5co-project > a:after {
-    opacity: 0;
-    visibility: hidden;
+    /*opacity: 0;*/
+    opacity: 1;
+    /*visibility: hidden;*/
+    visibility: visible;
     content: "";
     position: absolute;
     bottom: 0;
@@ -1099,6 +1116,10 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+}
+
+#fh5co-project .fh5co-project > a:hover:after {
+    height: 0;
 }
 
 #fh5co-project .fh5co-project > a .fh5co-copy {
@@ -1144,9 +1165,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-project .fh5co-project > a:hover {
-    -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+    /*    -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);*/
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 768px) {
