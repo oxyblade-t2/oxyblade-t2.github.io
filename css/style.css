@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6, figure {
     left: 0;
     right: 0;
     /*background: rgba(42, 51, 86, 0.9);*/
-    background: url("../images/grid-002.png");
+    background: url("../images/grid-002.png"), rgba(0, 0, 0, 0.7);
 }
 
 .fh5co-cover > .fh5co-container {
