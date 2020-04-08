@@ -993,7 +993,18 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative;
 }
 
-.decor-page-main-1,
+.decor-page-main-1 {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    max-width: 700px;
+    height: auto;
+    /*opacity: 0.03;*/
+    opacity: 0.1;
+    -ms-filter: invert(60%);
+    filter: invert(60%);
+}
+
 .decor-page-about {
     position: absolute;
     left: 0;
@@ -1008,8 +1019,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .decor-page-main-2 {
     position: absolute;
-    right: -3rem;
-    bottom: -3rem;
+    left: 3rem;
+    bottom: 3rem;
     max-width: 600px;
     height: auto;
     /*opacity: 0.03;*/
@@ -1046,9 +1057,9 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 
     .decor-page-main-2 {
-        right: -1rem;
-        bottom: -1rem;
-        max-width: 250px;
+        left: 1rem;
+        bottom: 1rem;
+        max-width: 450px;
     }
 
     .decor-page-services-1 {
