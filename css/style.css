@@ -1108,7 +1108,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 0 18px 71px -10px rgba(0, 0, 0, 0.75);
-  cursor: default;
 }
 
 #fh5co-project .fh5co-project > a .fh5co-copy {
@@ -2339,7 +2338,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid #fafafa;
 }
 
 [data-tooltip]:hover::after {
@@ -2348,8 +2347,23 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 400px;
   left: 0;
   top: 2em;
-  background: #fff;
+  background: #fafafa;
   color: #000;
   padding: 0.5em;
   box-shadow: 0 8px 13px -9px rgba(255, 255, 255, 0.95);
+}
+
+.product-modal-img {
+  max-width: 100%;
+}
+
+.product-modal-text {
+  color: #000;
+}
+
+#inline-modal {
+  max-height: 600px !important;
+  background: #fafafa;
+  padding: 15px 0;
+  overflow-y: scroll;
 }
