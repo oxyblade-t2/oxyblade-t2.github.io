@@ -2292,6 +2292,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 [data-tooltip] {
   position: relative;
+  line-height: 1.4;
 }
 
 [data-tooltip]:hover::before {
