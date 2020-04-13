@@ -80,24 +80,24 @@
 
     $('#fh5co-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
     $('#fh5co-offcanvas')
-      .find('li')
-      .removeClass('has-dropdown');
+        .find('li')
+        .removeClass('has-dropdown');
 
     // Hover dropdown menu on mobile
     $('.offcanvas-has-dropdown').mouseenter(function () {
       var $this = $(this);
 
       $this
-        .addClass('active')
-        .find('ul')
-        .slideDown(500, 'easeOutExpo');
+          .addClass('active')
+          .find('ul')
+          .slideDown(500, 'easeOutExpo');
     }).mouseleave(function () {
 
       var $this = $(this);
       $this
-        .removeClass('active')
-        .find('ul')
-        .slideUp(500, 'easeOutExpo');
+          .removeClass('active')
+          .find('ul')
+          .slideUp(500, 'easeOutExpo');
     });
 
 
@@ -174,17 +174,17 @@
 
       var $this = $(this);
       $this
-        .find('.dropdown')
-        .css('display', 'block')
-        .addClass('animated-fast fadeInUpMenu');
+          .find('.dropdown')
+          .css('display', 'block')
+          .addClass('animated-fast fadeInUpMenu');
 
     }).mouseleave(function () {
       var $this = $(this);
 
       $this
-        .find('.dropdown')
-        .css('display', 'none')
-        .removeClass('animated-fast fadeInUpMenu');
+          .find('.dropdown')
+          .css('display', 'none')
+          .removeClass('animated-fast fadeInUpMenu');
     });
 
   };
