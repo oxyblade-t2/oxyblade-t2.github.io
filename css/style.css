@@ -750,9 +750,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-project,
 #fh5co-about,
-#fh5co-team,
 #fh5co-contact {
   padding: 7em 0;
+  clear: both;
+}
+
+#fh5co-team {
+  padding: 7em 0 3em;
   clear: both;
 }
 
@@ -2269,10 +2273,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom-left-radius: 0px !important;
 }
 
-/*# sourceMappingURL=style.css.map */
-
 .pulse-button {
-
   position: fixed;
   bottom: 10rem;
   right: 1rem;
@@ -2282,7 +2283,6 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0 0 0 0 rgba(157, 141, 84, 0.7);
   border-radius: 50%;
   background-color: #d6aa4f;
-  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/jonathanlarradet_copy.png);*/
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -2343,4 +2343,12 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fafafa;
   padding: 15px 0;
   overflow-y: scroll;
+}
+
+.about-portfolio img {
+  width: 100%;
+  height: 360px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding-bottom: 30px;
 }
