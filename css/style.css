@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   #fh5co-project .fh5co-project {
-    margin-bottom: 0 !important;
+    /*margin-bottom: 0 !important;*/
   }
 }
 
@@ -2329,8 +2329,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .product-modal-img {
   /*max-width: 100%;*/
   width: 100%;
-  height: 250px;
-  object-fit: contain;
+  /*height: 250px;*/
+  height: 532px;
+  -o-object-fit: cover;
+  object-fit: cover;
   margin-bottom: 1rem;
 }
 
