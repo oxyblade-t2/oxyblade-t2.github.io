@@ -258,7 +258,6 @@
 
 // services page - flip tiles
 jQuery(document).ready(function ($) {
-
   //Count nr. of square classes
   let countSquare = $('.square').length;
 
@@ -273,5 +272,4 @@ jQuery(document).ready(function ($) {
     firstImage.css('background-image', 'url(' + getImage + ')');
     secondImage.css('background-image', 'url(' + getImage2 + ')');
   }
-
 });
