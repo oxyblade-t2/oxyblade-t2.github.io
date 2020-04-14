@@ -2327,7 +2327,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #fafafa;
+  border-bottom: 10px solid #8e7433;
   -webkit-transform: translate(0, -13px);
   -moz-transform: translate(0, -13px);
   -ms-transform: translate(0, -13px);
@@ -2342,8 +2342,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 400px;
   left: 0;
   top: 2em;
-  background: #fafafa;
-  color: #000;
+  /*background: #fafafa;*/
+  /*background: rgb(0, 0, 0);*/
+  /*background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(214, 170, 79, 1) 100%);*/
+  /*background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(214, 170, 79, 1) 100%);*/
+  background: #8e7433;
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#d6aa4f", GradientType=1);*/
+  /*color: #000;*/
+  color: #fff;
   padding: 0.5em;
   -webkit-box-shadow: 0 8px 13px -9px rgba(255, 255, 255, 0.95);
   -moz-box-shadow: 0 8px 13px -9px rgba(255, 255, 255, 0.95);
