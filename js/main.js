@@ -23,7 +23,6 @@
     }
   };
 
-
   var mobileMenuOutsideClick = function () {
 
     $(document).click(function (e) {
@@ -65,7 +64,6 @@
         $('.fh5co-nav #fh5co-logo a > img').css('max-width', 86);
       }
     });
-
 
   };
 
@@ -112,7 +110,6 @@
     });
   };
 
-
   var burgerMenu = function () {
 
     $('body').on('click', '.js-fh5co-nav-toggle', function (event) {
@@ -129,7 +126,6 @@
 
     });
   };
-
 
   var contentWayPoint = function () {
     var i = 0;
@@ -167,7 +163,6 @@
     }, {offset: '100%'});
   };
 
-
   var dropdown = function () {
 
     $('.has-dropdown').mouseenter(function () {
@@ -188,7 +183,6 @@
     });
 
   };
-
 
   var goToTop = function () {
 
@@ -215,7 +209,6 @@
     });
 
   };
-
 
   // Loading page
   /*  var loaderPage = function () {
@@ -248,7 +241,6 @@
     }
   };
 
-
   $(function () {
     mobileMenuOutsideClick();
     scrollNavBar();
@@ -263,3 +255,23 @@
   });
 
 }());
+
+// services page - flip tiles
+jQuery(document).ready(function ($) {
+
+  //Count nr. of square classes
+  let countSquare = $('.square').length;
+
+  //For each Square found add BG image
+  for (i = 0; i < countSquare; i++) {
+    let firstImage = $('.square').eq([i]);
+    let secondImage = $('.square2').eq([i]);
+
+    let getImage = firstImage.attr('data-image');
+    let getImage2 = secondImage.attr('data-image');
+
+    firstImage.css('background-image', 'url(' + getImage + ')');
+    secondImage.css('background-image', 'url(' + getImage2 + ')');
+  }
+
+});
