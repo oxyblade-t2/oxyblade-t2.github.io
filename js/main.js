@@ -98,7 +98,6 @@
           .slideUp(500, 'easeOutExpo');
     });
 
-
     $(window).resize(function () {
 
       if ($('body').hasClass('offcanvas')) {
